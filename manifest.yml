@@ -1,6 +1,6 @@
 applications:
  - name: pt-sb-wardemo
-   memory: 512M
+   memory: 256M
    path: ./target/demo-sb-war-0.0.1-SNAPSHOT.war.original
    instances: 1
    host: pt-sb-wardemo
