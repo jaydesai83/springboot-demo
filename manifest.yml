@@ -4,3 +4,4 @@ applications:
    path: ./target/demo-sb-war-0.0.1-SNAPSHOT.war.original
    instances: 1
    host: pt-sb-wardemo
+   timeout: 180
