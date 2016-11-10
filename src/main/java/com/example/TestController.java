@@ -10,6 +10,6 @@ public class TestController
     @RequestMapping(value = "/helloworld", method = RequestMethod.GET)
     public String hello()
     {
-        return "hello pete!";
+        return "hello pete\n";
     }
 }
