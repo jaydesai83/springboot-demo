@@ -12,4 +12,9 @@ public class TestController
     {
         return "hello pete\n";
     }
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String reponse()
+    {
+        return "Spring Boot WAR Demo";
+    }
 }
