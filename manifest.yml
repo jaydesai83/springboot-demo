@@ -6,3 +6,4 @@ applications:
    host: pt-sb-wardemo
    services:
     - auto-scaling
+    - monitoring-and-analytics
