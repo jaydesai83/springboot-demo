@@ -10,11 +10,11 @@ public class TestController
     @RequestMapping(value = "/helloworld", method = RequestMethod.GET)
     public String hello()
     {
-        return "hello pete\n";
+        return "hello jay\n";
     }
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String reponse()
     {
-        return "Spring Boot WAR Demo";
+        return "Spring Boot WAR Demo for Suncorp";
     }
 }
